@@ -6,7 +6,7 @@ def main():
     st.title("Chat with LLAMA")
 
     # Hardcoded API key (Security Risk!)
-    client = Groq(api_key="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")
+    client = Groq(api_key="YOUR_API_KEY")
 
     # Single prompt input
     user_input = st.text_area("Enter your question:", height=100)
